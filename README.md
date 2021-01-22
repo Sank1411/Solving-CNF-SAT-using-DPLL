@@ -1,6 +1,7 @@
 # Solving-CNF-SAT-using-DPLL
 
 Algorithm Description :
+
   Find unit clause and assign them value so that it becomes true
   Check for Contradictions for unit clause. If contradiction is found, thhen CNF is unsatisfiable.
   Simplify CNF from unit clause by removing clauses containing unit clause and removing literals which are NOT(unit clause) from any clause
